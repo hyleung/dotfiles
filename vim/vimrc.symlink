@@ -14,6 +14,7 @@ set number
 " Haskell stuff
 
 au BufEnter *.hs compiler ghc
+au BufEnter *.lhs compiler ghc
 au FileType haskell let b:ghc_staticoptions = '-XNPlusKPatterns'
 
 let g:haddock_browser = "open"
