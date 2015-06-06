@@ -21,3 +21,5 @@ au FileType haskell let b:ghc_staticoptions = '-XNPlusKPatterns'
 
 let g:haddock_browser = "open"
 let g:ghc = "/usr/bin/ghc"
+
+map <C-n> :NERDTreeToggle<CR>
