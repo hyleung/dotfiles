@@ -14,7 +14,6 @@ set number
 let g:marked_app = "Marked"
 
 " Haskell stuff
-
 au BufEnter *.hs compiler ghc
 au BufEnter *.lhs compiler ghc
 au FileType haskell let b:ghc_staticoptions = '-XNPlusKPatterns'
@@ -23,3 +22,9 @@ let g:haddock_browser = "open"
 let g:ghc = "/usr/bin/ghc"
 
 map <C-n> :NERDTreeToggle<CR>
+
+"No cheating
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
