@@ -21,7 +21,8 @@ au FileType haskell let b:ghc_staticoptions = '-XNPlusKPatterns'
 let g:haddock_browser = "open"
 let g:ghc = "/usr/bin/ghc"
 
-map <C-n> :NERDTreeToggle<CR>
+map <F2> :NERDTreeToggle<CR>
+map <F3> :NERDTreeFind<CR>
 
 "No cheating
 noremap <Up> <NOP>
