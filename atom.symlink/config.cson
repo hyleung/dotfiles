@@ -24,6 +24,7 @@
       "exception-reporting"
       "metrics"
     ]
+    followSymlinks: false
   "spell-check":
     grammars: [
       "text.plain"
