@@ -29,3 +29,9 @@ noremap <Up> <NOP>
 noremap <Down> <NOP>
 noremap <Left> <NOP>
 noremap <Right> <NOP>
+
+set rtp+=$HOME/.vim/bundle/powerline/powerline/bindings/vim/
+
+" Always show statusline
+set laststatus=2
+set t_Co=256

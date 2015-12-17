@@ -1,3 +1,4 @@
 package brew
 package osx
+theme agnoster
 theme default
