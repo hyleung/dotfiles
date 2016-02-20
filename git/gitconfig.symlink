@@ -12,6 +12,12 @@
         co = checkout
         count   = !git shortlog -sn
 	    plog 	= log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+        cob = checkout -b
+        wip = commit -am "WIP" 
+        amend = commit -a --amend
+        save = !git add -A && git commit -m 'SAVEPOINT'
+        amend = commit -a --amend
+        wipe = !git add -A && git commit -qm 'WIPE SAVEPOINT' && git 
 [color]
         diff = auto
         status = auto
