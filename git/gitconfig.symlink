@@ -6,6 +6,7 @@
 [user]
         name = Ho Yan Leung
         email = hy.leung@gmail.com
+	signingkey = hy.leung@gmail.com
 [credential]
         helper = /opt/boxen/bin/boxen-git-credential
 [alias]
