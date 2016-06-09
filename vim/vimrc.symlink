@@ -12,7 +12,12 @@ set expandtab
 set number
 
 let g:marked_app = "Marked"
-
+" Autocommands
+if has("autocmd") 
+    " Enable filetype
+    filetype on
+    autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+endif
 " Haskell stuff
 au BufEnter *.hs compiler ghc
 au BufEnter *.lhs compiler ghc
@@ -35,3 +40,9 @@ set rtp+=$HOME/.vim/bundle/powerline/powerline/bindings/vim/
 " Always show statusline
 set laststatus=2
 set t_Co=256
+
+"Rainbow parens
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
