@@ -68,3 +68,18 @@ let g:rbpt_colorpairs = [
     \ ]
 
 let g:rbpt_max = 16
+
+function! <SID>StripTrailingWhitespaces()
+    " http://vimcasts.org/episodes/tidying-whitespace/
+    " Preparation: save last search, and cursor position.
+    let _s=@/
+    let l = line(".")
+    let c = col(".")
+    " Do the business:
+    %s/\s\+$//e
+    " Clean up: restore previous search history, and cursor position
+    let @/=_s
+    call cursor(l, c)
+endfunction
+
+autocmd BufWritePre *.clj,*.js :call <SID>StripTrailingWhitespaces()
