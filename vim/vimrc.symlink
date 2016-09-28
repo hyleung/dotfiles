@@ -1,5 +1,7 @@
 execute pathogen#infect()
 syntax on
+
+let mapleader=","
 " Wrap gitcommit file types at the appropriate length
 filetype indent plugin on
 nnoremap <F5> :GundoToggle<CR>
