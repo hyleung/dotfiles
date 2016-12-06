@@ -9,7 +9,7 @@ nnoremap <F5> :GundoToggle<CR>
 set tabstop=4
 set shiftwidth=4
 set expandtab
-
+set listchars=tab:▸\ ,extends:›,precedes:‹,nbsp:·,trail:·,eol:¬
 set number
 
 let g:marked_app = "Marked"
