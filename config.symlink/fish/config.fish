@@ -8,4 +8,4 @@ set -gx OMF_PATH /Users/hyleung/.local/share/omf
 source $OMF_PATH/init.fish
 
 set -x GOPATH /Users/hyleung/gocode
-set -x PATH $PATH /opt/boxen/homebrew/bin/ $GOPATH/bin
+set -x PATH /opt/boxen/homebrew/bin/ $PATH $GOPATH/bin
