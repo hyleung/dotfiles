@@ -1,3 +1,4 @@
+source /Users/$USER/.config/fish/functions/docker.fish
 # Path to Oh My Fish install.
 set -gx OMF_PATH /Users/$USER/.local/share/omf
 
