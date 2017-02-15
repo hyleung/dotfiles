@@ -33,6 +33,7 @@ values."
    '(
      javascript
      ruby
+     html
      yaml
      go
      shell-scripts
@@ -50,6 +51,7 @@ values."
      git
      markdown
      org
+     shell-scripts
      ;; (shell :variables
      ;;        shell-default-height 30
      ;;        shell-default-position 'bottom)
