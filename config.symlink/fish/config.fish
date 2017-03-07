@@ -10,3 +10,5 @@ set -gx OMF_PATH /Users/$USER/.local/share/omf
 
 set -x GOPATH /Users/$USER/gocode
 set -x PATH /opt/boxen/homebrew/bin/ $PATH $GOPATH/bin
+
+alias fig "docker-compose"
