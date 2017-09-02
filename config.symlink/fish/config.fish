@@ -10,5 +10,5 @@ set -gx OMF_PATH /Users/$USER/.local/share/omf
 
 set -x GOPATH /Users/$USER/gocode
 set -x PATH /opt/boxen/homebrew/bin/ $PATH $GOPATH/bin
-
+set -g theme_color_scheme solarized-light
 alias fig "docker-compose"

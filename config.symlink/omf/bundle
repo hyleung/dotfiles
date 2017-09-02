@@ -1,4 +1,5 @@
 package brew
 package osx
 theme agnoster
+theme bobthefish
 theme default
