@@ -12,3 +12,9 @@ set -x GOPATH /Users/$USER/gocode
 set -x PATH /opt/boxen/homebrew/bin/ $PATH $GOPATH/bin
 set -g theme_color_scheme solarized-light
 alias fig "docker-compose"
+
+if not functions -q fisher
+    set -q XDG_CONFIG_HOME; or set XDG_CONFIG_HOME ~/.config
+    curl https://git.io/fisher --create-dirs -sLo $XDG_CONFIG_HOME/fish/functions/fisher.fish
+    fish -c fisher
+end
