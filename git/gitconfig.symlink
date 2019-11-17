@@ -47,3 +47,5 @@
        enabled =true
        autoupdate = true
 
+[github]
+	user = hyleung
