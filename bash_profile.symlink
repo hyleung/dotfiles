@@ -6,3 +6,6 @@ export PATH=$PATH:~/bin:/usr/local/bin
 
 source ~/.git-completion.bash
 export EDITOR=/usr/bin/vim
+
+eval "$(starship init bash)"
+
