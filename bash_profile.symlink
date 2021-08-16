@@ -1,0 +1,8 @@
+#terminal colours
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
+
+export PATH=$PATH:~/bin:/usr/local/bin
+
+source ~/.git-completion.bash
+export EDITOR=/usr/bin/vim
