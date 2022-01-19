@@ -36,6 +36,7 @@
 (setq display-line-numbers-type t)
 
 (setq nyan-animate-nyancat t)
+(setq projectile-project-search-path '("~/Projects/"))
 
 ;; Here are some additional functions/macros that could help you configure Doom:
 ;;

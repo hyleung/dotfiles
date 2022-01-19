@@ -49,3 +49,5 @@
 
 [github]
 	user = hyleung
+[init]
+	defaultBranch = main
