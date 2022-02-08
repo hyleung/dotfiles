@@ -107,7 +107,7 @@
        ;;tty               ; improve the terminal Emacs experience
 
        :lang
-       ;;clojure           ; java with a lisp
+       clojure           ; java with a lisp
        ;;common-lisp       ; if you've seen one lisp, you've seen them all
        ;;data              ; config/data formats
        ;;(dart +flutter)   ; paint ui and not much else
