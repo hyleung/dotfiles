@@ -17,7 +17,7 @@ eval "$(pyenv init --path)"
 
 eval "$(pyenv init -)"
 
-val "$(jenv init -)"
+eval "$(jenv init -)"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
